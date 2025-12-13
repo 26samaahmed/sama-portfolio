@@ -14,7 +14,7 @@
 
 <div class="text-center mt-16">
   <p class="text-lg mb-2">
-    thank you for making it this far, here is a song recommendation for you!
+    Thank you for making it this far, here is a song recommendation for you!
   </p>
   <iframe
     style="border-radius:12px; display:block; margin:auto;"
@@ -60,10 +60,9 @@
   <!-- Center footer: always centered -->
   <div class="flex justify-center text-md md:text-lg lg:text-xl">
     <div>
-      made with <span class="text-sm">💚</span> by sama ahmed
+      Made with <span class="text-sm">💚</span> by Sama Ahmed
       <br class="hidden sm:block" />
-      <span class="block text-sm md:text-base -mt-2"
-        >all rights reserved © 2025</span
+      <span class="block text-sm md:text-base">All Rights Reserved © 2025</span
       >
     </div>
   </div>

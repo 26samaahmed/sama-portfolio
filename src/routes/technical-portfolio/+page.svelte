@@ -39,53 +39,53 @@
 
   let projects = [
     {
-      name: "skysong",
+      name: "SkySong",
       link: "https://github.com/26samaahmed/skysong",
       teck_stack: [
-        "html",
-        "css",
-        "python",
-        "flask",
-        "openweathermap api",
-        "spotify api",
+        "Html",
+        "CSS",
+        "Python",
+        "Flask",
+        "Openweathermap API",
+        "Spotify API",
       ],
       description:
-        "☆ a web app that displays the current temperature and recommends songs to match the weather — chill tracks for colder days, upbeat ones for the heat.",
+        "☆ A web app that displays the current temperature and recommends songs to match the weather — chill tracks for colder days, upbeat ones for the heat.",
     },
     {
-      name: "concert tracker",
+      name: "Concert Tracker",
       link: "https://github.com/26samaahmed/concert-tracker",
-      teck_stack: ["sveltekit", "ticketmaster api"],
+      teck_stack: ["SvelteKit", "Ticketmaster API"],
       description:
-        "☆ a website where users can search for concerts by city and month, and explore upcoming events happening in that location.",
+        "☆ A website where users can search for concerts by city and month, and explore upcoming events happening in that location.",
     },
     {
-      name: "fullybeyond",
+      name: "FullyBeyond",
       link: "https://github.com/26samaahmed/fullybeyond",
-      teck_stack: ["sveltekit", "tailwindcss"],
+      teck_stack: ["SvelteKit", "Tailwind CSS"],
       description:
-        "☆ the official site for csuf’s first student-led designathon, built with a team of 4. it features the event schedule, sponsors, and more.",
+        "☆ The official site for csuf’s first student-led designathon, built with a team of 4. It features the event schedule, sponsors, and more.",
     },
     {
-      name: "acm csuf website",
+      name: "ACM at CSUF website",
       link: "https://github.com/EthanThatOneKid/acmcsuf.com",
-      teck_stack: ["sveltekit", "typescript"],
+      teck_stack: ["SvelteKit", "TypeScript"],
       description:
-        "☆ the official website for csuf’s acm chapter, built with 70+ contributors. it highlights club info, events, and resources for members.",
+        "☆ The official website for csuf’s acm chapter, built with 70+ contributors. It highlights club info, events, and resources for members.",
     },
     {
-      name: "playlist exporter",
+      name: "Playlist Exporter",
       link: "https://github.com/JOwen-ster/PlaylistExporter",
       teck_stack: [
-        "python",
-        "flask",
-        "sveltekit",
-        "tailwindcss",
-        "spotify api",
-        "youtube api",
+        "Python",
+        "Flask",
+        "SvelteKit",
+        "Tailwind CSS",
+        "Spotify API",
+        "YouTube API",
       ],
       description:
-        "☆ a tool that lets users convert and export their spotify playlists directly to youtube playlists.",
+        "☆ A tool that lets users convert and export their spotify playlists directly to youtube playlists.",
     },
   ];
 
@@ -95,12 +95,12 @@
   let color = "#000000";
   let path1 = {
     href: "/",
-    text: "return home",
+    text: "Return Home",
   };
 
   let path2 = {
     href: "/creative-portfolio",
-    text: "explore creative portfolio",
+    text: "Explore Creative Portfolio",
   };
 </script>
 
@@ -109,7 +109,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link
-    href="https://fonts.googleapis.com/css2?family=Alegreya+Sans+SC:ital,wght@0,100;0,300;0,400;0,500;0,700;0,800;0,900;1,100;1,300;1,400;1,500;1,700;1,800;1,900&display=swap"
+    href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Stencil:opsz,wght@10..72,100..900&display=swap"
     rel="stylesheet"
   />
 </svelte:head>
@@ -125,26 +125,21 @@
       <h1
         class="text-2xl sm:text-3xl md:text-5xl xl:text-5xl sm:mr-4 mb-4 sm:mb-0"
       >
-        hi, i'm sama ahmed
+        Hi, I'm Sama Ahmed!
       </h1>
     </div>
 
     <h2 class="text-lg sm:text-xl md:text-3xl xl:text-4xl mb-5 text-left">
-      a frontend-focused developer with a passion for <em
-        >building responsive web applications</em
-      >
-      and
-      <em>creating seamless user experiences</em> — driven to
-      <em>lead with initiative</em>
-      and
-      <em>collaborate with purpose</em> ⋆. 𐙚 ˚
+      A frontend-focused developer with a passion for building responsive web applications and
+      creating seamless user experiences — driven to lead with initiative
+      and collaborate with purpose ⋆. 𐙚 ˚
     </h2>
   </div>
 
   <Gallery {college_highlights} />
 
   <div class="ml-5 mr-5 sm:ml-16 sm:mr-16 mt-24" id="projects">
-    <h1 class="text-4xl text-black mb-2">projects</h1>
+    <h1 class="text-4xl text-black mb-2">Projects</h1>
     <div class="flex flex-wrap -mx-2">
       {#each projects as project}
         <div class="w-full sm:w-1/2 lg:w-1/3 pb-8 px-2">
@@ -175,7 +170,7 @@
                 href={project.link}
                 target="_blank"
                 class="text-lg text-blue-500 border-b-2 border-transparent hover:border-current transition duration-300 ease-in-out text-center"
-                >view project</a
+                >View Project</a
               >
             </div>
           </div>
@@ -184,46 +179,43 @@
     </div>
 
     <p class="text-xl text-black mt-5 text-end mr-4">
-      check out more on my
+      Check out more on my
       <a class="underline" href="https://github.com/26samaahmed" target="_blank"
         >github</a
       >
     </p>
   </div>
 
-  <div
-    class="relative rounded border-black border-2 ml-5 mr-5 sm:ml-16 sm:mr-16 mt-40 pt-8 px-4 pb-4"
-  >
+  <div class="relative ml-5 mr-5 sm:ml-16 sm:mr-16 mt-40 pt-10 px-4 pb-4">
     <div class="absolute -top-6 left-4 flex items-center">
-      <h1 class="bg-white px-3 text-4xl whitespace-nowrap">જ⁀➴ about me</h1>
+      <h1 class="bg-white px-3 text-4xl whitespace-nowrap">જ⁀➴ About Me</h1>
     </div>
 
     <section class="text-xl sm:text-2xl">
       <p>
-        i’m an egyptian immigrant who moved to the united states at 15, bringing
-        a unique perspective to my work in tech. i’m passionate about both
-        product management and software engineering, especially frontend
-        development. i love building intuitive, user-centered web apps and
+        I’m an Egyptian immigrant who moved to the United States at 15, bringing
+        a unique perspective to my work in tech. I’m passionate about both
+        Product Management and Software Engineering, especially frontend
+        development. I love building intuitive, user-centered web apps and
         exploring how design, engineering, and product come together to create
         great user experiences.
       </p>
       <br />
       <p>
-        currently, i’m a rising senior at cal state fullerton majoring in
-        computer science. since my sophomore year, i’ve been actively involved
-        in acm at csuf, the largest tech club on campus, taking on leadership
-        roles like co-directing fullyhacks 2025, where i led 50+ organizers and
-        helped attract over 250 participants. i also co-led the open source team
-        and served as webmaster during the 2024–2025 academic year, teaching
+        Currently, I’m a senior at Cal State Fullerton majoring in Computer
+        Science. Since my sophomore year, I’ve been actively involved in ACM at
+        CSUF, the largest tech club on campus, taking on leadership roles like
+        co-directing Fullyhacks 2025, where I led 50+ organizers and helped
+        attract over 250 participants. I also co-led the Open Source team and
+        served as Webmaster during the 2024–2025 academic year, teaching
         students about open source tools and helping them contribute to
-        projects. i’m currently interning as a user experience researcher at lpl
-        financial in san diego.
+        projects.
       </p>
       <br />
       <p>
-        outside of tech, i enjoy watching k-dramas, listening to music, and
-        designing websites. in 2024, i had the amazing experience of seeing my
-        favorite artists, ateez and txt, live in concert ⋆ 𐙚 ̊.
+        Outside of tech, I enjoy watching k-dramas, listening to music, and
+        designing websites. In 2024, I had the amazing experience of seeing my
+        favorite artists, Ateez and TXT, live in concert ⋆ 𐙚 ̊.
       </p>
     </section>
   </div>
@@ -233,6 +225,6 @@
 
 <style>
   :global(body) {
-    font-family: "Alegreya Sans SC", sans-serif;
+    font-family: "Big Shoulders Stencil", sans-serif;
   }
 </style>

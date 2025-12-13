@@ -35,7 +35,7 @@
     {/each}
   </div>
 
-  <div class="flex justify-end space-x-3 md:space-x-8">
+  <div class="flex justify-end space-x-3 md:space-x-16">
     {#each buttons as button}
       {#if button.link === "#projects"}
         <a

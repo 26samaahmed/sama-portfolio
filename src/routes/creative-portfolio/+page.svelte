@@ -44,32 +44,32 @@
 
   let projects = [
     {
-      name: "moaverse",
+      name: "Moaverse",
       description:
-        "a website for txt, a k-pop group, that showcases information about the members and their music in an interactive way",
+        "A website for txt, a k-pop group, that showcases information about the members and their music in an interactive way",
       image: project4,
-      date: "april 2024",
+      date: "April 2024",
     },
     {
-      name: "aura",
+      name: "Aura",
       description:
-        "a mobile app that reimagines how deaf individuals experience music — using visuals created by people with color synesthesia",
+        "A mobile app that reimagines how deaf individuals experience music — using visuals created by people with color synesthesia",
       image: project2,
-      date: "april 2024",
+      date: "April 2024",
     },
     {
-      name: "fishtank",
+      name: "Fishtank",
       description:
-        "an ai-powered app that curates local events based on user prompts and interests — designed to foster connection and well-being among college students",
+        "An ai-powered app that curates local events based on user prompts and interests — designed to foster connection and well-being among college students",
       image: project3,
-      date: "april 2024",
+      date: "April 2024",
     },
     {
-      name: "e-go",
+      name: "E-go",
       description:
-        "a mobile app that helps students find convenient, affordable rides by integrating public transportation options and offering rewards for using them",
+        "A mobile app that helps students find convenient, affordable rides by integrating public transportation options and offering rewards for using them",
       image: project1,
-      date: "may 2024",
+      date: "May 2024",
     },
   ];
 
@@ -80,14 +80,13 @@
 
   let path1 = {
     href: "/technical-portfolio",
-    text: "explore technical portfolio",
-  };
-  
-  let path2 = {
-    href: "/",
-    text: "return home",
+    text: "Explore Technical Portfolio",
   };
 
+  let path2 = {
+    href: "/",
+    text: "Return Home",
+  };
 </script>
 
 <svelte:head>
@@ -95,7 +94,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link
-    href="https://fonts.googleapis.com/css2?family=Alegreya+Sans+SC:ital,wght@0,100;0,300;0,400;0,500;0,700;0,800;0,900;1,100;1,300;1,400;1,500;1,700;1,800;1,900&display=swap"
+    href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Stencil:opsz,wght@10..72,100..900&display=swap"
     rel="stylesheet"
   />
 </svelte:head>
@@ -111,17 +110,13 @@
       <h1
         class="text-2xl sm:text-3xl md:text-5xl xl:text-5xl sm:mr-4 mb-4 sm:mb-0"
       >
-        hi, i'm sama ahmed
+        Hi, I'm Sama Ahmed!
       </h1>
     </div>
     <h2 class="text-lg sm:text-xl md:text-3xl xl:text-4xl mb-5 text-left">
-      a ui/ux enthusiast with a passion for <em
-        >designing intuitive web interfaces</em
-      >
-      and
-      <em>building user-centered web applications</em> — driven to
-      <em>bring ideas to life</em>
-      through purposeful, creative design ⋆. 𐙚 ˚
+      A UI/UX enthusiast with a passion for designing intuitive web interfaces
+      and building user-centered web applications — driven to bring ideas to
+      life through purposeful, creative design ⋆. 𐙚 ˚
     </h2>
   </div>
 
@@ -131,7 +126,7 @@
     class="grid grid-cols-1 sm:grid-cols-2 gap-8 ml-5 mr-5 sm:ml-16 sm:mr-16 mt-24"
     id="projects"
   >
-    <h1 class="col-span-1 sm:col-span-2 text-4xl">projects</h1>
+    <h1 class="col-span-1 sm:col-span-2 text-4xl">Projects</h1>
     {#each projects as project}
       <div class="relative mb-8 group">
         <div class="flex flex-row justify-between">
@@ -152,43 +147,39 @@
     {/each}
   </div>
 
-  <div
-    class="relative rounded border-white border-2 ml-5 mr-5 sm:ml-16 sm:mr-16 mt-40 pt-8 px-4 pb-4"
-  >
+  <div class="relative ml-5 mr-5 sm:ml-16 sm:mr-16 mt-40 pt-10 px-4 pb-4">
     <div class="absolute -top-6 left-4 flex items-center">
-      <h1 class="bg-black px-3 text-4xl whitespace-nowrap">જ⁀➴ about me</h1>
+      <h1 class="bg-black px-3 text-4xl whitespace-nowrap">જ⁀➴ About me</h1>
     </div>
 
     <section class="text-xl sm:text-2xl">
       <p>
-        i’m an aspiring product designer with a love for creating intuitive,
-        user-friendly web apps. my design journey started during my sophomore
-        year, when i joined the design team for my college’s annual hackathon,
-        fullyhacks 2024. that experience sparked my interest in crafting
+        I’m an aspiring Product Designer with a love for creating intuitive,
+        user-friendly web apps. My design journey started during my sophomore
+        year, when I joined the design team for my college’s annual hackathon,
+        Fullyhacks 2024. that experience sparked my interest in crafting
         interfaces that not only look good, but feel seamless to use.
       </p>
       <br />
       <p>
-        i’ve always been drawn to art, and design has become one of my favorite
-        ways to express creativity. over time, i began exploring the world of
+        I’ve always been drawn to art, and design has become one of my favorite
+        ways to express creativity. Over time, I began exploring the world of
         designathons, where i collaborated with other designers to build
-        projects in under 24 hours. i’ve participated in events like createsc
-        2024 (usc), gator user design 2024 (uf), and vista 2024 (ucla). at
-        createsc, which was only my second designathon, my team and i made it to
+        projects in under 24 hours. I’ve participated in events like CreateSC
+        2024 (USC), Gator User Design 2024 (UF), and Vista 2024 (UCLA). At
+        CreateSC, which was only my second designathon, my team and i made it to
         the top 15 finalists.
       </p>
       <br />
       <p>
-        inspired by that experience, my friends and i decided to organize our
-        own: fullybeyond 2024, the first designathon hosted by a csu. with my
-        background in frontend development, i led the website’s development.
-        after six months of planning, we successfully launched the event and
-        received 100+ applicants. it was one of the most meaningful moments of
-        my college experience, and it reminded me how much i love working with
-        others to bring ideas to life. i’m now interning as a user experience
-        researcher at lpl financial in san diego to explore how user insights
-        can shape stronger, more meaningful designs. my goal is to keep building
-        experiences that truly connect ⋆ 𐙚 ̊.
+        inspired by that experience, my friends and I decided to organize our
+        own: FullyBeyond 2024, the first designathon hosted by a CSU. With my
+        background in frontend development, I led the website’s development.
+        After six months of planning, we successfully launched the event and
+        received 100+ applicants. It was one of the most meaningful moments of
+        my college experience, and it reminded me how much I love working with
+        others to bring ideas to life. My goal is to keep building experiences
+        that truly connect ⋆ 𐙚 ̊.
       </p>
     </section>
   </div>
@@ -198,6 +189,6 @@
 
 <style>
   :global(body) {
-    font-family: "Alegreya Sans SC", sans-serif;
+    font-family: "Big Shoulders Stencil", sans-serif;
   }
 </style>

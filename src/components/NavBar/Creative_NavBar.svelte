@@ -1,10 +1,10 @@
 <script>
   import NavigationBar from "./NavBar.svelte";
   let buttons = [
-    { name: "home", link: "/" },
-    { name: "projects", link: "#projects" },
+    { name: "Home", link: "/" },
+    { name: "Projects", link: "#projects" },
     {
-      name: "gallery",
+      name: "Gallery",
       link: "https://www.samahmed.info/design-gallery",
       target: "_blank",
     },

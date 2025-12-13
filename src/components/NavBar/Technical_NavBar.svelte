@@ -1,9 +1,9 @@
 <script>
   import NavigationBar from "./NavBar.svelte";
   let buttons = [
-    { name: "home", link: "/" },
-    { name: "projects", link: "#projects" },
-    { name: "resume", link: "/Sama_Ahmed_Resume.pdf", target: "_blank" },
+    { name: "Home", link: "/" },
+    { name: "Projects", link: "#projects" },
+    { name: "Resume", link: "/Sama_Ahmed_Resume.pdf", target: "_blank" },
   ];
 
   let icons = [
