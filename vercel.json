@@ -2,7 +2,7 @@
   "rewrites": [
     {
       "source": "/design-gallery/:path*",
-      "destination": "https://www.samahmed.info/design-gallery/:path*"
+      "destination": "https://design-gallery.samahmed.info/:path*"
     }
   ]
 }
